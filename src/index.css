@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+body {
+  margin: 0;
+  background-color: #0A0B0D !important;
+  color: #D1D5DB !important;
+  background-image: radial-gradient(#1f2937 1px, transparent 1px);
+  background-size: 20px 20px;
+  font-family: 'Inter', sans-serif;
+}
+
+/* Ensure consistent monospaced font for telemetry elements */
+.font-mono {
+  font-family: 'JetBrains Mono', monospace !important;
+}
+
+/* High density container elements overrides */
+.card {
+  background: rgba(15, 23, 42, 0.6) !important;
+  border: 1px solid #1F2937 !important;
+  border-radius: 4px !important;
+  box-shadow: none !important;
+}
+

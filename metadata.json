@@ -1,0 +1,11 @@
+{
+  "name": "Nigeria Secure Electoral System",
+  "description": "A highly secure, biometric-verified electoral voting and voter census platform featuring multi-modal face-matching, iris-pattern recognition, optical fingerprint ingestion, and continuous surveillance logging.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
